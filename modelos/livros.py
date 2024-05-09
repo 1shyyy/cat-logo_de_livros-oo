@@ -9,7 +9,7 @@ class Livro:
         Livro.catalogo_de_livros.append(self)
 
     def __str__(self) -> str:
-        return f'Título: {self.titulo.ljust(20)} | Autor: {self.autor.ljust(20)} | Gênero: {self.genero.ljust(20)} | Disponibilidade: {self.status}'
+        return f'Título: {self.titulo.ljust(40)} | Autor: {self.autor.ljust(20)} | Gênero: {self.genero.ljust(20)} | Disponibilidade: {self.status}'
 
     @property
     def status(self):

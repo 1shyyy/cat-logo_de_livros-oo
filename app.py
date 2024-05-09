@@ -37,7 +37,7 @@ def escolher_opcao():
         match opcao:
             case 1:
                 Livro.mostrar_catalogo()
-                print()
+                
                 voltar_menu_principal()
 
             case 2:
